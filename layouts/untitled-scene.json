@@ -645,11 +645,12 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "",
+          "name": "Iron Chestplate",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": true,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.025,
               "sprites": [
                 {

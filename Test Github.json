@@ -315,7 +315,7 @@
       {
         "file": "assets/Iron Chestplate.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/Iron Chestplate.png\",\"extension\":\".png\"}",
         "name": "Iron Chestplate.png",
         "smoothed": false,
         "userAdded": false,
@@ -323,6 +323,14 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Pixel art RPG Items/Armor/36e93b16917f0dde2d37783cc56adbbd26e97e1c4f8a77b3a16d1b96fc7b1f88_Iron Chestplate.png",
           "name": "Iron Chestplate.png"
         }
+      },
+      {
+        "file": "assets/Iron Chestplate2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Iron Chestplate",
+        "smoothed": false,
+        "userAdded": false
       }
     ]
   },
