@@ -333,12 +333,16 @@
         "userAdded": false
       },
       {
-        "file": "assets/NewSprite19.png",
+        "file": "assets/Industrial block 4.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite19",
+        "metadata": "",
+        "name": "Industrial block 4.png",
         "smoothed": false,
-        "userAdded": false
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Industrial Platformer Pack (110 assets)/PNG/Retina/3ce9b3defd12c96e4bc8505df958fb40d32869049b5bd34c8e65e75ba3792245_Industrial block 4.png",
+          "name": "Industrial block 4.png"
+        }
       }
     ]
   },
