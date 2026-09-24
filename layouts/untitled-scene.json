@@ -55,8 +55,8 @@
       "name": "Character",
       "persistentUuid": "e1c7def6-cec4-414a-a40f-621452da7f59",
       "width": 80,
-      "x": 560,
-      "y": 432,
+      "x": 432,
+      "y": 464,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -110,7 +110,7 @@
       "name": "Iron_Chestplate",
       "persistentUuid": "386457c8-e83b-419d-ae07-bda5a87e5f9e",
       "width": 96,
-      "x": 560,
+      "x": 720,
       "y": 464,
       "zOrder": 6,
       "numberProperties": [],
@@ -119,16 +119,15 @@
     },
     {
       "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 224,
+      "customSize": false,
+      "height": 0,
       "keepRatio": true,
       "layer": "",
-      "name": "NewSprite2",
-      "persistentUuid": "71a90f6d-e28b-457b-b0d7-596b43ee0ac6",
-      "width": 256,
+      "name": "Industrial_block_4",
+      "persistentUuid": "4d53bab5-a28a-4f6c-b333-56c7fd0a977e",
+      "width": 0,
       "x": 992,
-      "y": 448,
+      "y": 464,
       "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
@@ -722,6 +721,9 @@
     },
     {
       "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "e74ea2582ab5008bde14f38095c85e73584d3eef0f83fc5d51f6b2ba2575a032",
+      "name": "Industrial_block_4",
+      "persistentUuid": "d2c9bcdd-d433-43be-af08-a5fcb0ade162",
       "assetStoreId": "",
       "name": "NewSprite2",
       "persistentUuid": "db1830ef-ce5a-43e4-bab6-1acb58df1fb9",
@@ -732,6 +734,16 @@
       "behaviors": [],
       "animations": [
         {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Industrial block 4.png",
           "name": "NewSprite2",
           "useMultipleDirections": false,
           "directions": [
@@ -758,6 +770,20 @@
                   "customCollisionMask": [
                     [
                       {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 140,
+                        "y": 0
+                      },
+                      {
+                        "x": 140,
+                        "y": 140
+                      },
+                      {
+                        "x": 0,
+                        "y": 140
                         "x": 2,
                         "y": 13
                       },
@@ -793,6 +819,7 @@
         "objectName": "Character"
       },
       {
+        "objectName": "Industrial_block_4"
         "objectName": "NewSprite2"
       },
       {
