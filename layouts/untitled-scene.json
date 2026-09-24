@@ -252,6 +252,14 @@
           "name": "ShakeObject_PositionAngleScale",
           "type": "ShakeObject::ShakeObject_PositionAngleScale",
           "Scale": "Scale"
+        },
+        {
+          "name": "StayOnScreen",
+          "type": "StayOnScreen::StayOnScreen",
+          "MarginTop": 0,
+          "MarginBottom": 0,
+          "MarginLeft": 0,
+          "MarginRight": 0
         }
       ],
       "animations": [
@@ -716,6 +724,9 @@
       "assetStoreId": "e74ea2582ab5008bde14f38095c85e73584d3eef0f83fc5d51f6b2ba2575a032",
       "name": "Industrial_block_4",
       "persistentUuid": "d2c9bcdd-d433-43be-af08-a5fcb0ade162",
+      "assetStoreId": "",
+      "name": "NewSprite2",
+      "persistentUuid": "db1830ef-ce5a-43e4-bab6-1acb58df1fb9",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -733,6 +744,17 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Industrial block 4.png",
+          "name": "NewSprite2",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite19",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -762,6 +784,20 @@
                       {
                         "x": 0,
                         "y": 140
+                        "x": 2,
+                        "y": 13
+                      },
+                      {
+                        "x": 61,
+                        "y": 13
+                      },
+                      {
+                        "x": 61,
+                        "y": 61
+                      },
+                      {
+                        "x": 2,
+                        "y": 61
                       }
                     ]
                   ]
@@ -784,6 +820,7 @@
       },
       {
         "objectName": "Industrial_block_4"
+        "objectName": "NewSprite2"
       },
       {
         "objectName": "Mehehehe"
@@ -905,6 +942,11 @@
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
     }
   ],
   "layers": [
@@ -1014,6 +1056,10 @@
     {
       "name": "ShakeObject_PositionAngleScale",
       "type": "ShakeObject::ShakeObject_PositionAngleScale"
+    },
+    {
+      "name": "StayOnScreen",
+      "type": "StayOnScreen::StayOnScreen"
     },
     {
       "name": "TileMap",
