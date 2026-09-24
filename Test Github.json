@@ -291,6 +291,14 @@
         "name": "Move4",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite18.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite18",
+        "smoothed": false,
+        "userAdded": false
       }
     ]
   },
