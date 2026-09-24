@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.546875,
+    "zoomFactor": 0.5290357402156837,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -55,8 +55,8 @@
       "name": "Character",
       "persistentUuid": "e1c7def6-cec4-414a-a40f-621452da7f59",
       "width": 80,
-      "x": 992,
-      "y": 373,
+      "x": 560,
+      "y": 432,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -110,7 +110,7 @@
       "name": "Iron_Chestplate",
       "persistentUuid": "386457c8-e83b-419d-ae07-bda5a87e5f9e",
       "width": 96,
-      "x": 480,
+      "x": 544,
       "y": 480,
       "zOrder": 6,
       "numberProperties": [],
@@ -121,15 +121,32 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 528,
+      "height": 224,
       "keepRatio": true,
       "layer": "",
       "name": "NewSprite2",
-      "persistentUuid": "cd6a662c-ef55-40de-9dfe-7feb85d95ecc",
-      "width": 592,
-      "x": 320,
-      "y": 16,
+      "persistentUuid": "71a90f6d-e28b-457b-b0d7-596b43ee0ac6",
+      "width": 256,
+      "x": 96,
+      "y": 432,
       "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 160,
+      "keepRatio": true,
+      "layer": "",
+      "name": "knife",
+      "persistentUuid": "d0f7f3fa-e17b-4f2e-9934-9799d3a86d0a",
+      "width": 176,
+      "x": 688,
+      "y": 448,
+      "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -724,7 +741,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "NewSprite2",
-      "persistentUuid": "e5a62fb2-2ee4-422c-9b25-7ca1bda50370",
+      "persistentUuid": "db1830ef-ce5a-43e4-bab6-1acb58df1fb9",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -758,25 +775,49 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 14,
-                        "y": 18
+                        "x": 2,
+                        "y": 13
                       },
                       {
-                        "x": 56,
-                        "y": 18
+                        "x": 61,
+                        "y": 13
                       },
                       {
-                        "x": 56,
-                        "y": 58
+                        "x": 61,
+                        "y": 61
                       },
                       {
-                        "x": 14,
-                        "y": 58
+                        "x": 2,
+                        "y": 61
                       }
                     ]
                   ]
                 }
               ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "knife",
+      "persistentUuid": "fcfd71eb-6ad4-436e-9a6a-05a7a62dd01e",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": []
             }
           ]
         }
@@ -793,6 +834,9 @@
         "objectName": "Character"
       },
       {
+        "objectName": "NewSprite2"
+      },
+      {
         "objectName": "Mehehehe"
       },
       {
@@ -802,7 +846,7 @@
         "objectName": "Iron_Chestplate"
       },
       {
-        "objectName": "NewSprite2"
+        "objectName": "knife"
       }
     ]
   },
