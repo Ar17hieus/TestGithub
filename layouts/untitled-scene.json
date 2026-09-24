@@ -110,7 +110,7 @@
       "name": "Iron_Chestplate",
       "persistentUuid": "386457c8-e83b-419d-ae07-bda5a87e5f9e",
       "width": 96,
-      "x": 560,
+      "x": 544,
       "y": 464,
       "zOrder": 6,
       "numberProperties": [],
@@ -781,6 +781,30 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "knife",
+      "persistentUuid": "fcfd71eb-6ad4-436e-9a6a-05a7a62dd01e",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": []
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -803,6 +827,9 @@
       },
       {
         "objectName": "Iron_Chestplate"
+      },
+      {
+        "objectName": "knife"
       }
     ]
   },
