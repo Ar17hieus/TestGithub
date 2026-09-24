@@ -331,6 +331,14 @@
         "name": "Iron Chestplate",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite20.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite19",
+        "smoothed": false,
+        "userAdded": false
       }
     ]
   },
