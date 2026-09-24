@@ -99,6 +99,23 @@
         }
       ],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 6,
+      "height": 96,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Iron_Chestplate",
+      "persistentUuid": "386457c8-e83b-419d-ae07-bda5a87e5f9e",
+      "width": 96,
+      "x": 560,
+      "y": 464,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -615,6 +632,67 @@
         "tileSize": 64,
         "tilesWithHitBox": "22,28,23,29"
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "eaa4a978b8920bc56bfbf28ef221453de3ad8e1d3a6dbb23394dc8d64972915a",
+      "name": "Iron_Chestplate",
+      "persistentUuid": "3e7af398-5275-46dd-90ed-b3a355d3d394",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Iron Chestplate.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 2
+                      },
+                      {
+                        "x": 15,
+                        "y": 2
+                      },
+                      {
+                        "x": 15,
+                        "y": 15
+                      },
+                      {
+                        "x": 1,
+                        "y": 15
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -631,6 +709,9 @@
       },
       {
         "objectName": "Pirate_Bomb_Wooden_Boat_Decor_64x64"
+      },
+      {
+        "objectName": "Iron_Chestplate"
       }
     ]
   },
