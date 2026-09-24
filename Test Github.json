@@ -299,6 +299,18 @@
         "name": "NewSprite18",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/WoodenBoatDecor.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "WoodenBoatDecor.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Tile Sets/Tilemap/6cfd19ecb1e8c2c27a8d40d8324240395e588642896b044f35f072fe8bb45106_WoodenBoatDecor.png",
+          "name": "WoodenBoatDecor.png"
+        }
       }
     ]
   },
