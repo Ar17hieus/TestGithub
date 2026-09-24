@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.546875,
+    "zoomFactor": 0.5290357402156837,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -110,9 +110,43 @@
       "name": "Iron_Chestplate",
       "persistentUuid": "386457c8-e83b-419d-ae07-bda5a87e5f9e",
       "width": 96,
-      "x": 560,
-      "y": 464,
+      "x": 544,
+      "y": 480,
       "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 224,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewSprite2",
+      "persistentUuid": "71a90f6d-e28b-457b-b0d7-596b43ee0ac6",
+      "width": 256,
+      "x": 96,
+      "y": 432,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 160,
+      "keepRatio": true,
+      "layer": "",
+      "name": "knife",
+      "persistentUuid": "d0f7f3fa-e17b-4f2e-9934-9799d3a86d0a",
+      "width": 176,
+      "x": 688,
+      "y": 448,
+      "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -236,6 +270,14 @@
           "name": "ShakeObject_PositionAngleScale",
           "type": "ShakeObject::ShakeObject_PositionAngleScale",
           "Scale": "Scale"
+        },
+        {
+          "name": "StayOnScreen",
+          "type": "StayOnScreen::StayOnScreen",
+          "MarginTop": 0,
+          "MarginBottom": 0,
+          "MarginLeft": 0,
+          "MarginRight": 0
         }
       ],
       "animations": [
@@ -694,6 +736,92 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite2",
+      "persistentUuid": "db1830ef-ce5a-43e4-bab6-1acb58df1fb9",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite2",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite19",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 13
+                      },
+                      {
+                        "x": 61,
+                        "y": 13
+                      },
+                      {
+                        "x": 61,
+                        "y": 61
+                      },
+                      {
+                        "x": 2,
+                        "y": 61
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "knife",
+      "persistentUuid": "fcfd71eb-6ad4-436e-9a6a-05a7a62dd01e",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": []
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -706,6 +834,9 @@
         "objectName": "Character"
       },
       {
+        "objectName": "NewSprite2"
+      },
+      {
         "objectName": "Mehehehe"
       },
       {
@@ -713,6 +844,9 @@
       },
       {
         "objectName": "Iron_Chestplate"
+      },
+      {
+        "objectName": "knife"
       }
     ]
   },
@@ -825,6 +959,11 @@
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
     }
   ],
   "layers": [
@@ -934,6 +1073,10 @@
     {
       "name": "ShakeObject_PositionAngleScale",
       "type": "ShakeObject::ShakeObject_PositionAngleScale"
+    },
+    {
+      "name": "StayOnScreen",
+      "type": "StayOnScreen::StayOnScreen"
     },
     {
       "name": "TileMap",
