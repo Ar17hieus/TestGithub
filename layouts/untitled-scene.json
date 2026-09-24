@@ -55,8 +55,8 @@
       "name": "Character",
       "persistentUuid": "e1c7def6-cec4-414a-a40f-621452da7f59",
       "width": 80,
-      "x": 432,
-      "y": 464,
+      "x": 992,
+      "y": 373,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -110,25 +110,9 @@
       "name": "Iron_Chestplate",
       "persistentUuid": "386457c8-e83b-419d-ae07-bda5a87e5f9e",
       "width": 96,
-      "x": 720,
-      "y": 464,
+      "x": 32,
+      "y": 560,
       "zOrder": 6,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Industrial_block_4",
-      "persistentUuid": "4d53bab5-a28a-4f6c-b333-56c7fd0a977e",
-      "width": 0,
-      "x": 992,
-      "y": 464,
-      "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -718,95 +702,6 @@
           ]
         }
       ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "e74ea2582ab5008bde14f38095c85e73584d3eef0f83fc5d51f6b2ba2575a032",
-      "name": "Industrial_block_4",
-      "persistentUuid": "d2c9bcdd-d433-43be-af08-a5fcb0ade162",
-      "assetStoreId": "",
-      "name": "NewSprite2",
-      "persistentUuid": "db1830ef-ce5a-43e4-bab6-1acb58df1fb9",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.025,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Industrial block 4.png",
-          "name": "NewSprite2",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite19",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 140,
-                        "y": 0
-                      },
-                      {
-                        "x": 140,
-                        "y": 140
-                      },
-                      {
-                        "x": 0,
-                        "y": 140
-                        "x": 2,
-                        "y": 13
-                      },
-                      {
-                        "x": 61,
-                        "y": 13
-                      },
-                      {
-                        "x": 61,
-                        "y": 61
-                      },
-                      {
-                        "x": 2,
-                        "y": 61
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
     }
   ],
   "objectsFolderStructure": {
@@ -817,10 +712,6 @@
       },
       {
         "objectName": "Character"
-      },
-      {
-        "objectName": "Industrial_block_4"
-        "objectName": "NewSprite2"
       },
       {
         "objectName": "Mehehehe"
